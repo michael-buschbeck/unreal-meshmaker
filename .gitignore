@@ -1,0 +1,11 @@
+# Borland Delphi compiled unit
+*.dcu
+# Borland Delphi desktop settings
+*.dsk
+# Borland Delphi identifier cache
+*.identcache
+# Borland Delphi backup files
+*.~dfm
+*.~dpr
+*.~dsk
+*.~pas
