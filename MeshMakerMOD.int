@@ -1,0 +1,17 @@
+[Setup]
+LocalProduct=MeshMaker
+ReadMe=Help\MeshMaker.txt
+SetupWindowTitle=MeshMaker Setup
+AutoplayWindowTitle=MeshMaker Options
+ProductURL=http://www.planetunreal.com/screen/meshmaker/
+VersionURL=http://www.planetunreal.com/screen/meshmaker/
+Developer=Mychaeel
+DeveloperURL=mailto:mychaeel@planetunreal.com
+Logo=MeshMaker\MeshMaker.bmp
+
+[UnrealTournamentRequirement]
+LocalProduct=UnrealTournament
+ProductURL=http://www.unrealtournament.com/
+VersionURL=http://unreal.epicgames.com/
+Developer=Epic Games, Inc.
+DeveloperURL=http://www.epicgames.com/

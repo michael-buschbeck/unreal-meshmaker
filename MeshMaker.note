@@ -1,0 +1,40 @@
+IMPROVEMENTS
+  * "Advanced" dialog:
+    * Level-of-detail setting
+    * bEdShouldSnap checkbox
+  * Memorize last .t3d import directory
+  * Fix message to "please wait while MeshMaker compiles your package".
+
+
+IDEAS
+  * Connect multiple imported prefabs to a mesh animation?
+
+
+unit Mesh:
+
+  * TMesh.LoadSkin:
+
+    Extra parameter FlagSkin that specifies the type of skin to be loaded.
+    (The corresponding FlagSkin field in the TSkin record type is private to
+    the Mesh unit, and anything else than SKIN_None there implies that the
+    skin was successfully loaded.)
+
+    Load skin from given file depending on FlagSkin setting.
+
+      - For SKIN_None, do nothing.
+      - For SKIN_Texture, take file name as package file and attempt to load
+        texture from that package.
+      - For SKIN_File, attempt to interpret file as .pcx or .bmp file and get
+        skin size from there.
+  
+  * TMesh.SaveMesh:
+  
+    Add "#exec texture load" statements for skins with SKIN_File.
+    
+
+PRE- AND POST-RELEASE
+  * Notify Steve Tack <stack@planetdeusex.com> of MeshMaker 1.1 release.
+  * Spanish translation by Pj!
+  * Beta testers:
+    * Birelli
+    * Expendable

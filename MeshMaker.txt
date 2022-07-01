@@ -1,0 +1,66 @@
+===============================================================================
+MeshMaker
+Copyright 2001 by Mychaeel <mychaeel@planetunreal.com>
+===============================================================================
+
+Mail all bug reports and suggestions to Mychaeel <mychaeel@planetunreal.com>
+
+
+===============================================================================
+Umod Installation
+===============================================================================
+
+Double-click the umod file and follow the instructions on the screen.
+
+
+===============================================================================
+Zip Installation
+===============================================================================
+
+The zip file includes information about in which subdirectories the files
+should be placed; simply extract all files in your UnrealTournament folder, and
+all files should go where they belong to.
+
+If that doesn't work out, extract the files manually into the following
+directories:
+
+  UnrealTournament\Help             MeshMaker.txt
+  UnrealTournament\Help\MeshMaker   *.html, *.gif, *.jpg
+  UnrealTournament\Maps             MyLamp.t3d
+  UnrealTournament\System           MeshMaker.exe
+
+
+===============================================================================
+Info
+===============================================================================
+
+MeshMaker is a Windows-based Unreal and Unreal Tournament editing tool that 
+makes converting UnrealEd brushes (or, more precisely, prefabs) to Decoration
+actors a matter of seconds.
+
+See the included documentation for details.
+
+
+===============================================================================
+Disclaimer
+===============================================================================
+
+MeshMaker is freeware and is provided "as is" without warranty of any kind,
+either express or implied, including but not limited to the implied warranties
+of merchantability and fitness for a particular purpose. In no event shall the
+author be liable for any damages whatsoever including direct, indirect,
+incidental, consequential, loss of business profits or special damages, even if
+the author has been advised of the possibility of such damages.
+
+
+===============================================================================
+Copyright/Permissions
+===============================================================================
+
+(c) 2001 by Mychaeel <mychaeel@planetunreal.com>
+
+Free for noncommercial use. For any other use and distribution, please contact
+me in advance. Thanks.
+
+
+===============================================================================
